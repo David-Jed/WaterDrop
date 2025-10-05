@@ -4,10 +4,10 @@
     "slug": "water-drop-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/splash-icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/images/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#3B82F6"
     },
@@ -22,7 +22,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
         "backgroundColor": "#3B82F6"
       },
       "package": "com.axionsmartsystems.watermonitor",
@@ -37,7 +37,7 @@
       "useNextNotificationsApi": true
     },
     "notification": {
-      "icon": "./assets/notification-icon.png",
+      "icon": "./assets/images/favicon.png",
       "color": "#3B82F6",
       "androidMode": "default",
       "androidCollapsedTitle": "WaterDrop Systems"
@@ -47,7 +47,7 @@
       [
         "expo-notifications",
         {
-          "icon": "./assets/notification-icon.png",
+          "icon": "./assets/images/icon.png",
           "color": "#3B82F6",
           "defaultChannel": "default"
         }
