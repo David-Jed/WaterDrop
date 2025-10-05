@@ -166,7 +166,7 @@ export default function SettingsScreen() {
             </View>
             <Slider
               style={styles.slider}
-              minimumValue={120}
+              minimumValue={60}
               maximumValue={3600}
               step={60}
               value={settings.shutoff_time}
