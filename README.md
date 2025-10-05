@@ -48,3 +48,24 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+# Main development:
+
+### accomplishments:
+Release covers:
+Full server backend connection with frontend
+Support for History (water usage)
+Basic dashboard systems.
+Email support (Since I don't own SMTP server, its rate limited to 2 signups per hour)
+Login/signup and logout support.
+basic statistics
+
+
+Due to time limitations, some features were scrapped:
+Frontend sync connection with ESP/Arduino board (Backend however supports this already.)
+Notifications (I couldnt figure out for the life of me how to properly set them up :/)
+Display brightness & dark mode.
+Oauth with our providers (Gmail, Apple) - Use the email login system
+visual graphs (scatterplot graph) for statistics.
+Had signing issues for compiling app for native (android and IOS) -> For testing purposes install expo go and run development build locally.
